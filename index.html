@@ -10,15 +10,16 @@
 </head>
 <body>
     <div class="container">
-        <section class="forms" id="forms">
+        <section class="forms" id="forms" >
             <form>
                 <div class="logo-container">
                     <img class="logo" src="./assets/logo.png" alt="Logo Resilience eXperts">
                 </div>
                 <h1>Resilience Quick Maturity Assessment</h1>
                 <div class="inputBox">
+                    <!-- 1 -->
                     <div class="question">
-                        <p class="input-title">São realizadas periodicamente  avaliações de riscos com escopo amplo (incluindo serviços aos clientes, operação, TI, Cyber, backoffice, etc) e para os riscos classificados como mais relevante, possuem ações de mitigação com prazos e responsáveis atribuídos?</p>
+                        <p class="input-title">São realizadas periodicamente avaliações de riscos com escopo amplo (incluindo serviços de infraestrutura de TI para aos clientes, operação, TI, Cyber, backoffice etc) e para os riscos classificados como mais relevantes, possuem ações de mitigação com prazos e responsáveis atribuídos?</p>
                         <div class="alternatives">
                             <div class="alternative">
                                 <input type="radio" id="1.1" name="questao1" value="1" required>
@@ -42,6 +43,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- 2 -->
                     <div class="question">
                         <p class="input-title">Há um modelo de governança de GRCN (Gestão de Riscos e Continuidade de Negócios), incluindo orçamento, headcounts especializados,  e um plano estratégico aprovado pela alta direção, bem como políticas divulgadas?</p>
                         <div class="alternatives">
@@ -67,8 +69,9 @@
                             </div>
                         </div>
                     </div>
+                    <!-- 3 -->
                     <div class="question">
-                        <p class="input-title">Há um processo de manutenção do programa de resiliência implementado bem como auditorias internas e externas para identificar deficiências e oportunidades de melhoria?</p>
+                        <p class="input-title">Há um processo de manutenção do programa de resiliência implementado, bem como auditorias internas e externas para identificar deficiências e oportunidades de melhoria?</p>
                         <div class="alternatives">
                             <div class="alternative">
                                 <input type="radio" id="3.1" name="questao3" value="1" required>
@@ -92,8 +95,35 @@
                             </div>
                         </div>
                     </div>
+                    <!-- 4 -->
                     <div class="question">
-                        <p class="input-title"> São conduzidos treinamentos para as equipes envolvidas, bem como testes e simulações periódicas com objetivo de medir a eficácia e identificar oportunidades de melhorias nos planos de resposta a incidentes, resposta a emergência, gestão de crises, continuidade de negócio e TI?</p>
+                        <p class="input-title"> Existe o mapeamento e classificação dos Sistemas e Serviços de TI por seus tempos admitidos para recuperação em caso de indisponibilidade?</p>
+                        <div class="alternatives">
+                            <div class="alternative">
+                                <input type="radio" id="13.1" name="questao13" value="1" required>
+                                <label for="13.1">Discordo Totalmente</label>
+                            </div>
+                            <div class="alternative">
+                                <input type="radio" id="13.2" name="questao13" value="2" required>
+                                <label for="13.2">Discordo</label>
+                            </div>
+                            <div class="alternative">
+                                <input type="radio" id="13.3" name="questao13" value="3" required>
+                                <label for="13.3">Discordo Parcialmente</label>
+                            </div>
+                            <div class="alternative">
+                                <input type="radio" id="13.4" name="questao13" value="4" required>
+                                <label for="13.4">Concordo</label>
+                            </div>
+                            <div class="alternative">
+                                <input type="radio" id="13.5" name="questao13" value="5" required>
+                                <label for="13.5">Concordo Totalmente</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="question">
+                        <p class="input-title"> São conduzidos treinamentos para as equipes envolvidas, bem como testes e simulações periódicas com objetivo de medir a eficácia e identificar oportunidades de melhorias nos planos de resposta a incidentes, resposta a emergência, gestão de crises, continuidade de negócio e para Continuidade de TI?</p>
                         <div class="alternatives">
                             <div class="alternative">
                                 <input type="radio" id="4.1" name="questao4" value="1" required>
@@ -117,8 +147,9 @@
                             </div>
                         </div>
                     </div>
+                    <!-- 6 -->
                     <div class="question">
-                        <p class="input-title">Os planos de gestão/ comunicação de crises, continuidade de negócio (CN) e tecnologia (DR) estão documentados e implementados com base nos resultados da avaliação de riscos, BIA e Estratégias de Continuidade?</p>
+                        <p class="input-title">Os planos de gestão/ comunicação de crises, continuidade de negócio (CN) e tecnologia (DR) estão documentados e implementados com base nos resultados da avaliação de riscos, Análise de Impacto nos Negócios (BIA) e Estratégias de Continuidade?</p>
                         <div class="alternatives">
                             <div class="alternative">
                                 <input type="radio" id="7.1" name="questao7" value="1" required>
@@ -142,6 +173,59 @@
                             </div>
                         </div>
                     </div>
+                    <!-- 7 -->
+                    <div class="question">
+                        <p class="input-title">O Plano de Recuperação de TI (DR) possui fluxo de acionamento testado, incluindo definição de responsabilidades?</p>
+                        <div class="alternatives">
+                            <div class="alternative">
+                                <input type="radio" id="8.1" name="questao8" value="1" required>
+                                <label for="8.1">Discordo Totalmente</label>
+                            </div>
+                            <div class="alternative">
+                                <input type="radio" id="8.2" name="questao8" value="2" required>
+                                <label for="8.2">Discordo</label>
+                            </div>
+                            <div class="alternative">
+                                <input type="radio" id="8.3" name="questao8" value="3" required>
+                                <label for="8.3">Discordo Parcialmente</label>
+                            </div>
+                            <div class="alternative">
+                                <input type="radio" id="8.4" name="questao8" value="4" required>
+                                <label for="8.4">Concordo</label>
+                            </div>
+                            <div class="alternative">
+                                <input type="radio" id="8.5" name="questao8" value="5" required>
+                                <label for="8.5">Concordo Totalmente</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 8 -->
+                    <div class="question">
+                        <p class="input-title"> Existem garantias com registros de treinamento para assegurar a familiaridade para os integrantes que suportam o caminho crítico dos processos de recuperação dos serviços de TI?</p>
+                        <div class="alternatives">
+                            <div class="alternative">
+                                <input type="radio" id="6.1" name="questao6" value="1" required>
+                                <label for="6.1">Discordo Totalmente</label>
+                            </div>
+                            <div class="alternative">
+                                <input type="radio" id="6.2" name="questao6" value="2" required>
+                                <label for="6.2">Discordo</label>
+                            </div>
+                            <div class="alternative">
+                                <input type="radio" id="6.3" name="questao6" value="3" required>
+                                <label for="6.3">Discordo Parcialmente</label>
+                            </div>
+                            <div class="alternative">
+                                <input type="radio" id="6.4" name="questao6" value="4" required>
+                                <label for="6.4">Concordo</label>
+                            </div>
+                            <div class="alternative">
+                                <input type="radio" id="6.5" name="questao6" value="5" required>
+                                <label for="6.5">Concordo Totalmente</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 9 -->
                     <div class="question">
                         <p class="input-title">Há um Comitê de Crises implementado com participação da alta direção e um plano de gestão de crises documentado para os principais cenários que contemple as estratégias de comunicação e partes interessadas que devem ser acionadas?</p>
                         <div class="alternatives">
@@ -167,8 +251,9 @@
                             </div>
                         </div>
                     </div>
+                    <!-- 10 -->
                     <div class="question">
-                        <p class="input-title">Há implementado um Centro de Operações de Emergências (COE) para monitoramento e reporte de eventos internos e externos que possam afetar a continuidade das operações (não só TI) e comunicação com agências externas, bem como planos de gestão e resposta a incidentes formalizados?</p>
+                        <p class="input-title">Há implementado um Centro de Operações de Emergências (COE) para monitoramento e reporte de eventos internos e externos que possam afetar a continuidade das operações (não somente de TI) e comunicação com agências externas, bem como planos de gestão e resposta a incidentes formalizados?</p>
                         <div class="alternatives">
                             <div class="alternative">
                                 <input type="radio" id="10.1" name="questao10" value="1" required>
@@ -192,6 +277,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- 11 -->
                     <div class="question">
                         <p class="input-title"> As estratégias de continuidade para realocação de pessoas, restabelecimento dos processos e sistemas vitais/ críticos foram desenhadas com base nos resultados do BIA e implementadas utilizando recursos próprios ou de terceiros?</p>
                         <div class="alternatives">
@@ -217,8 +303,9 @@
                             </div>
                         </div>
                     </div>
+                    <!-- 12 -->
                     <div class="question">
-                        <p class="input-title">São realizadas análises de impactos nos negócios (BIA) periodicamente nas quais são identificados servicos, produtos,  processos, sistemas pessoas vitais para a continuidade da operação, bem como a priorização para restabelecimento?</p>
+                        <p class="input-title">São realizadas análises de impactos nos negócios (BIA) periodicamente nas quais são identificados serviços de TI, produtos,  processos, sistemas e pessoas vitais para a continuidade das operações, bem como a priorização para restabelecimento?</p>
                         <div class="alternatives">
                             <div class="alternative">
                                 <input type="radio" id="14.1" name="questao14" value="1" required>
@@ -577,6 +664,14 @@
             </div>
         </sections>
     </div>
-    <script src="./test.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
+
+<!--
+    4. Existe um mapeamento e classificação dos Sistemas e Serviços de TI por seus tempos admitidos para recuperação em caso de indisponibilidade?
+    
+    7. O Plano de Recuperação de TI (DR) possui fluxo de acionamento testado, incluindo definição de responsabilidades?
+
+    8. Existem garantias com registros de treinamento para assegurar a familiaridade para os integrantes que suportam o caminho crítico dos processos de recuperação dos serviços de TI?
+-->
