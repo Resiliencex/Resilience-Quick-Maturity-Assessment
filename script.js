@@ -68,54 +68,82 @@ function chart() {
     }
     
     let questao4 = document.querySelector('input[name="questao4"]:checked').value;
-    let path4 = document.querySelector("#path4")
     let path6 = document.querySelector("#path6")
-    let alerta4 = document.querySelector("#alerta4")
+//   let alerta6 = document.querySelector("#alerta6")
     
     if (questao4 == 1) {
-        path4.style.fill = "rgb(145,37,144)";
         path6.style.fill = "rgb(145,37,144)";
-        alerta4.classList.remove("hiddenAlert")
+//      alerta4.classList.remove("hiddenAlert")
         title.classList.remove("hidden")
     } if (questao4 == 2) {
-        path4.style.fill = "rgb(254,4,0)";
         path6.style.fill = "rgb(254,4,0)";
         alerta4.classList.remove("hiddenAlert")
         title.classList.remove("hidden")
     } if (questao4 == 3) {
-        path4.style.fill = "rgb(255,255,8)";
         path6.style.fill = "rgb(255,255,8)";
     } if (questao4 == 4) {
-        path4.style.fill = "rgb(8,175,80)";
         path6.style.fill = "rgb(8,175,80)";
     } if (questao4 == 5) {
-        path4.style.fill = "rgb(66,114,195)";
         path6.style.fill = "rgb(66,114,195)";
+    }
+
+    let questao6 = document.querySelector('input[name="questao6"]:checked').value;
+    let path4 = document.querySelector("#path4")
+    let alerta4 = document.querySelector("#alerta4")
+    
+    if (questao6 == 1) {
+        path4.style.fill = "rgb(145,37,144)";
+        alerta4.classList.remove("hiddenAlert")
+        title.classList.remove("hidden")
+    } if (questao6 == 2) {
+        path4.style.fill = "rgb(254,4,0)";
+        alerta4.classList.remove("hiddenAlert")
+        title.classList.remove("hidden")
+    } if (questao6 == 3) {
+        path4.style.fill = "rgb(255,255,8)";
+    } if (questao6 == 4) {
+        path4.style.fill = "rgb(8,175,80)";
+    } if (questao6 == 5) {
+        path4.style.fill = "rgb(66,114,195)";
     }
     
     let questao7 = document.querySelector('input[name="questao7"]:checked').value;
     let path7 = document.querySelector("#path7")
-    let path8 = document.querySelector("#path8")
     let alerta7 = document.querySelector("#alerta7")
     
     if (questao7 == 1) {
         path7.style.fill = "rgb(145,37,144)";
-        path8.style.fill = "rgb(145,37,144)";
         alerta7.classList.remove("hiddenAlert")
         title.classList.remove("hidden")
     } if (questao7 == 2) {
         path7.style.fill = "rgb(254,4,0)";
-        path8.style.fill = "rgb(254,4,0)";
         alerta7.classList.remove("hiddenAlert")
         title.classList.remove("hidden")
     } if (questao7 == 3) {
         path7.style.fill = "rgb(255,255,8)";
-        path8.style.fill = "rgb(255,255,8)";
     } if (questao7 == 4) {
         path7.style.fill = "rgb(8,175,80)";
-        path8.style.fill = "rgb(8,175,80)";
     } if (questao7 == 5) {
         path7.style.fill = "rgb(66,114,195)";
+    }
+
+    let questao8 = document.querySelector('input[name="questao8"]:checked').value;
+    let path8 = document.querySelector("#path8")
+//  let alerta8 = document.querySelector("#alerta7")
+    
+    if (questao8 == 1) {
+        path8.style.fill = "rgb(145,37,144)";
+        alerta7.classList.remove("hiddenAlert")
+        title.classList.remove("hidden")
+    } if (questao8 == 2) {
+        path8.style.fill = "rgb(254,4,0)";
+        alerta7.classList.remove("hiddenAlert")
+        title.classList.remove("hidden")
+    } if (questao8 == 3) {
+        path8.style.fill = "rgb(255,255,8)";
+    } if (questao8 == 4) {
+        path8.style.fill = "rgb(8,175,80)";
+    } if (questao8 == 5) {
         path8.style.fill = "rgb(66,114,195)";
     }
     
@@ -168,27 +196,39 @@ function chart() {
     
     let questao12 = document.querySelector('input[name="questao12"]:checked').value;
     let path12 = document.querySelector("#path12")
-    let path13 = document.querySelector("#path13")
     let alerta12 = document.querySelector("#alerta12")
     
     if (questao12 == 1) {
         path12.style.fill = "rgb(145,37,144)";
-        path13.style.fill = "rgb(145,37,144)";
         alerta12.classList.remove("hiddenAlert")
         title.classList.remove("hidden")
     } if (questao12 == 2) {
         path12.style.fill = "rgb(254,4,0)";
-        path13.style.fill = "rgb(254,4,0)";
         alerta12.classList.remove("hiddenAlert")
         title.classList.remove("hidden")
     } if (questao12 == 3) {
         path12.style.fill = "rgb(255,255,8)";
-        path13.style.fill = "rgb(255,255,8)";
     } if (questao12 == 4) {
         path12.style.fill = "rgb(8,175,80)";
-        path13.style.fill = "rgb(8,175,80)";
     } if (questao12 == 5) {
         path12.style.fill = "rgb(66,114,195)";
+    }
+
+    let questao13 = document.querySelector('input[name="questao13"]:checked').value;
+    let path13 = document.querySelector("#path13")
+//  let alerta13 = document.querySelector("#alerta12")
+    
+    if (questao13 == 1) {
+        path13.style.fill = "rgb(145,37,144)";
+        title.classList.remove("hidden")
+    } if (questao13 == 2) {
+        path13.style.fill = "rgb(254,4,0)";
+        title.classList.remove("hidden")
+    } if (questao13 == 3) {
+        path13.style.fill = "rgb(255,255,8)";
+    } if (questao13 == 4) {
+        path13.style.fill = "rgb(8,175,80)";
+    } if (questao13 == 5) {
         path13.style.fill = "rgb(66,114,195)";
     }
     
