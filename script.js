@@ -68,45 +68,45 @@ function chart() {
     }
     
     let questao4 = document.querySelector('input[name="questao4"]:checked').value;
-    let path6 = document.querySelector("#path6")
-//   let alerta6 = document.querySelector("#alerta6")
-    
-    if (questao4 == 1) {
-        path6.style.fill = "rgb(145,37,144)";
-//      alerta4.classList.remove("hiddenAlert")
-        title.classList.remove("hidden")
-    } if (questao4 == 2) {
-        path6.style.fill = "rgb(254,4,0)";
-        alerta4.classList.remove("hiddenAlert")
-        title.classList.remove("hidden")
-    } if (questao4 == 3) {
-        path6.style.fill = "rgb(255,255,8)";
-    } if (questao4 == 4) {
-        path6.style.fill = "rgb(8,175,80)";
-    } if (questao4 == 5) {
-        path6.style.fill = "rgb(66,114,195)";
-    }
-
-    let questao6 = document.querySelector('input[name="questao6"]:checked').value;
     let path4 = document.querySelector("#path4")
     let alerta4 = document.querySelector("#alerta4")
     
-    if (questao6 == 1) {
+    if (questao4 == 1) {
         path4.style.fill = "rgb(145,37,144)";
         alerta4.classList.remove("hiddenAlert")
         title.classList.remove("hidden")
-    } if (questao6 == 2) {
+    } if (questao4 == 2) {
         path4.style.fill = "rgb(254,4,0)";
         alerta4.classList.remove("hiddenAlert")
         title.classList.remove("hidden")
-    } if (questao6 == 3) {
+    } if (questao4 == 3) {
         path4.style.fill = "rgb(255,255,8)";
-    } if (questao6 == 4) {
+    } if (questao4 == 4) {
         path4.style.fill = "rgb(8,175,80)";
-    } if (questao6 == 5) {
+    } if (questao4 == 5) {
         path4.style.fill = "rgb(66,114,195)";
     }
+
+    let questao6 = document.querySelector('input[name="questao6"]:checked').value;
+    let path6 = document.querySelector("#path6")
+    let alerta6 = document.querySelector("#alerta6")
     
+    if (questao6 == 1) {
+        path6.style.fill = "rgb(145,37,144)";
+        alerta6.classList.remove("hiddenAlert")
+        title.classList.remove("hidden")
+    } if (questao6 == 2) {
+        path6.style.fill = "rgb(254,4,0)";
+        alerta6.classList.remove("hiddenAlert")
+        title.classList.remove("hidden")
+    } if (questao6 == 3) {
+        path6.style.fill = "rgb(255,255,8)";
+    } if (questao6 == 4) {
+        path6.style.fill = "rgb(8,175,80)";
+    } if (questao6 == 5) {
+        path6.style.fill = "rgb(66,114,195)";
+    }
+
     let questao7 = document.querySelector('input[name="questao7"]:checked').value;
     let path7 = document.querySelector("#path7")
     let alerta7 = document.querySelector("#alerta7")
@@ -129,15 +129,15 @@ function chart() {
 
     let questao8 = document.querySelector('input[name="questao8"]:checked').value;
     let path8 = document.querySelector("#path8")
-//  let alerta8 = document.querySelector("#alerta7")
+    let alerta8 = document.querySelector("#alerta8")
     
     if (questao8 == 1) {
         path8.style.fill = "rgb(145,37,144)";
-        alerta7.classList.remove("hiddenAlert")
+        alerta8.classList.remove("hiddenAlert")
         title.classList.remove("hidden")
     } if (questao8 == 2) {
         path8.style.fill = "rgb(254,4,0)";
-        alerta7.classList.remove("hiddenAlert")
+        alerta8.classList.remove("hiddenAlert")
         title.classList.remove("hidden")
     } if (questao8 == 3) {
         path8.style.fill = "rgb(255,255,8)";
@@ -216,13 +216,15 @@ function chart() {
 
     let questao13 = document.querySelector('input[name="questao13"]:checked').value;
     let path13 = document.querySelector("#path13")
-//  let alerta13 = document.querySelector("#alerta12")
+    let alerta13 = document.querySelector("#alerta13")
     
     if (questao13 == 1) {
         path13.style.fill = "rgb(145,37,144)";
+        alerta13.classList.remove("hiddenAlert")
         title.classList.remove("hidden")
     } if (questao13 == 2) {
         path13.style.fill = "rgb(254,4,0)";
+        alerta13.classList.remove("hiddenAlert")
         title.classList.remove("hidden")
     } if (questao13 == 3) {
         path13.style.fill = "rgb(255,255,8)";
