@@ -250,6 +250,15 @@ text tspan {
     margin-left: .4rem;
 }
 
+#contato {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+#contato h1{
+    text-align: start;
+}
+
 .desc {
     margin-left: 2.4rem;
 }
